@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,500;1,700&display=swap');
+
+:root {
+    --cor-primaria: rgb(18, 176, 204);
+    --cor-secundaria: rgb(0, 255, 157);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto; /* pra colocar no centro */
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--cor-primaria);
+}
+
+form button{
+    color: aliceblue;
+    border: none;
+    background-color: var(--cor-primaria);
+    font-size: 18px;
+    font-weight: 700px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--cor-secundaria);
+}
+
+div{
+    display: inline-block;
+}
+
+.pesos{
+    padding-right: 10em;
+    padding-left: 0.4em;
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 158px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: block;
+  }
+  
+  .bad {
+    background: rgb(255, 150, 150);
+    text-align: center;
+    align-items: center;
+    padding: 10px 235px;
+    display: block;
+  }
