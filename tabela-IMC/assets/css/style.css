@@ -21,22 +21,22 @@ body {
 }
 
 .container {
-    max-width: 640px;
-    margin: 50px auto; /* pra colocar no centro */
-    padding: 20px;
+    max-width: 40rem;
+    margin: 4.5rem auto; /* pra colocar no centro */
+    padding: 1.2rem;
     background-color: aliceblue;
 }
 
 form input, form label, form button {
     display: block;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
+    font-size: 1.5rem;
+    height: 3.7rem;
+    padding: 0 1.2rem;
 }
 
 form input:focus{
@@ -47,11 +47,11 @@ form button{
     color: aliceblue;
     border: none;
     background-color: var(--cor-primaria);
-    font-size: 18px;
-    font-weight: 700px;
-    height: 50px;
+    font-size: 1rem;
+    font-weight: 43rem;
+    height: 3.5rem;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 form button:hover{
@@ -69,7 +69,7 @@ div{
 
 .paragrafo-resultado, .bad {
     background: rgb(109, 255, 182);
-    padding: 10px 158px;
+    padding: 0.8rem 10rem;
     text-align: center;
     align-items: center;
     width: 100%;
@@ -80,6 +80,6 @@ div{
     background: rgb(255, 150, 150);
     text-align: center;
     align-items: center;
-    padding: 10px 235px;
+    padding: 0.8rem 15rem;
     display: block;
   }
